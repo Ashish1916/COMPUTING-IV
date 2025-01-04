@@ -1,0 +1,460 @@
+desc: (none)
+cmd: ./EDistance
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2520243
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2636569
+mem_heap_B=73216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=2642004
+mem_heap_B=73688
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=2642678
+mem_heap_B=74712
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=2648329
+mem_heap_B=74712
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74712 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1536 0x4B34BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1536 0x4B43CDF: _IO_doallocbuf (genops.c:347)
+   n1: 1536 0x4B42CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n2: 1536 0x4B43D95: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4B3641B: _IO_getline_info (iogetline.c:60)
+      n1: 1024 0x4B3540F: fgets (iofgets.c:53)
+       n1: 1024 0x10B7D7: getMemoryUsageMB() (main.cpp:15)
+        n0: 1024 0x10B888: main (main.cpp:30)
+     n0: 512 in 1 place, below massif's threshold (1.00%)
+ n0: 472 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=2648329
+mem_heap_B=73688
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=2648459
+mem_heap_B=73216
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=2649975
+mem_heap_B=73252
+mem_heap_extra_B=36
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=2650844
+mem_heap_B=73516
+mem_heap_extra_B=52
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=2651257
+mem_heap_B=73552
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=2651994
+mem_heap_B=73588
+mem_heap_extra_B=92
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=2652731
+mem_heap_B=73624
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2653468
+mem_heap_B=73660
+mem_heap_extra_B=132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=2654205
+mem_heap_B=73696
+mem_heap_extra_B=152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2654942
+mem_heap_B=73732
+mem_heap_extra_B=172
+mem_stacks_B=0
+heap_tree=detailed
+n2: 73732 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 1028 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=16
+#-----------
+time=2655679
+mem_heap_B=73768
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2656416
+mem_heap_B=73804
+mem_heap_extra_B=212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2657153
+mem_heap_B=73840
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2657890
+mem_heap_B=73876
+mem_heap_extra_B=252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2658627
+mem_heap_B=73912
+mem_heap_extra_B=272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2659808
+mem_heap_B=73876
+mem_heap_extra_B=252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2702021
+mem_heap_B=74900
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2725057
+mem_heap_B=74931
+mem_heap_extra_B=285
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2743484
+mem_heap_B=74992
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2743844
+mem_heap_B=74961
+mem_heap_extra_B=271
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74961 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1536 0x4B34BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 1536 0x4B43CDF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B42F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x4B416D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x4B416D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x4B35FD6: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6B64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+        n1: 1024 0x49A6EBA: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+         n0: 1024 0x10B8EB: main (main.cpp:35)
+   n0: 512 in 1 place, below massif's threshold (1.00%)
+ n0: 721 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=2766000
+mem_heap_B=74900
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2766092
+mem_heap_B=75372
+mem_heap_extra_B=276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2766766
+mem_heap_B=76396
+mem_heap_extra_B=284
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2772414
+mem_heap_B=76396
+mem_heap_extra_B=284
+mem_stacks_B=0
+heap_tree=peak
+n3: 76396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 2560 0x4B34BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 2560 0x4B43CDF: _IO_doallocbuf (genops.c:347)
+   n1: 1536 0x4B42CDB: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:485)
+    n2: 1536 0x4B43D95: _IO_default_uflow (genops.c:362)
+     n1: 1024 0x4B3641B: _IO_getline_info (iogetline.c:60)
+      n1: 1024 0x4B3540F: fgets (iofgets.c:53)
+       n2: 1024 0x10B7D7: getMemoryUsageMB() (main.cpp:15)
+        n0: 1024 0x10B953: main (main.cpp:39)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 512 in 1 place, below massif's threshold (1.00%)
+   n1: 1024 0x4B42F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x4B416D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x4B416D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x4B35FD6: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6B64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+        n1: 1024 0x49A6EBA: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+         n0: 1024 0x10B8EB: main (main.cpp:35)
+ n0: 1132 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=2772414
+mem_heap_B=75372
+mem_heap_extra_B=276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2772544
+mem_heap_B=74900
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2787817
+mem_heap_B=74864
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2788065
+mem_heap_B=74828
+mem_heap_extra_B=220
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2788313
+mem_heap_B=74792
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2788561
+mem_heap_B=74756
+mem_heap_extra_B=180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2788809
+mem_heap_B=74720
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2789057
+mem_heap_B=74684
+mem_heap_extra_B=140
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2789305
+mem_heap_B=74648
+mem_heap_extra_B=120
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2789553
+mem_heap_B=74612
+mem_heap_extra_B=100
+mem_stacks_B=0
+heap_tree=detailed
+n3: 74612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4914939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1536 0x4B34BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 1536 0x4B43CDF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B42F5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x4B416D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x4B416D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x4B35FD6: fwrite (iofwrite.c:39)
+       n1: 1024 0x49A6B64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+        n1: 1024 0x49A6EBA: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+         n0: 1024 0x10B8EB: main (main.cpp:35)
+   n0: 512 in 1 place, below massif's threshold (1.00%)
+ n0: 372 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=2789801
+mem_heap_B=74576
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2790049
+mem_heap_B=74540
+mem_heap_extra_B=60
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2790297
+mem_heap_B=74504
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2790465
+mem_heap_B=74240
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2802508
+mem_heap_B=1536
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2803452
+mem_heap_B=1024
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2803486
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
